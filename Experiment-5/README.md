@@ -13,6 +13,7 @@ Perform circular convolution on the zero-padded sequences.
 3. Truncation:
 Truncate the result of the circular convolution to the length N1 + N2 - 1, where N1 and N2 are 
 the lengths of the original sequences x[n] and h[n], respectively.
+
 Performing Circular Convolution Using Linear Convolution.
 1. Zero-Padding:
 Pad both sequences x[n] and h[n] to a length of at least 2N-1, where N is the maximum length 
