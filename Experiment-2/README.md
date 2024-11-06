@@ -18,6 +18,9 @@ fmax is the highest frequency present in the signal.
 Applications:
 
 • Digital audio and video processing
+
 • Communication systems
+
 • Image processing
+
 • Medical imaging
