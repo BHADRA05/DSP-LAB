@@ -9,6 +9,7 @@ are often represented as periodic sequences.
 Mathematical Definition:
 
 Given two periodic sequences x[n] and h[n], their circular convolution is defined as:
+ 
  y[n] = (x[n] ⊛ h[n]) = ∑_{k=0} ^{N-1} x[k]h[(n-k) mod N] 
 
 Applications:
