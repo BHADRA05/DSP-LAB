@@ -12,6 +12,7 @@ r1 = [c(1:y_len)];
 r  = [c(y_len+1:end)];
 r2 = [r zeros(1,length(r1)-length(r))];
 y = r1 + r2;
+disp('Circular convolution using Linear convolution: ');
 disp(y);
 
 
