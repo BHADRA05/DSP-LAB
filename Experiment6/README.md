@@ -47,7 +47,8 @@ Using twiddle factor
   10.0000 + 0.0000i  -2.0000 + 2.0000i  -2.0000 - 0.0000i  -2.0000 - 2.0000i
 
  
-![DFT]("C:\Users\Bhadra\Desktop\Exp_6.jpg")
+![Exp_6](https://github.com/user-attachments/assets/08b61246-c7b0-4930-8569-fa3a7b1bf6a1)
+
 
 
 **IDFT:**
