@@ -1,6 +1,6 @@
 Experiment - 1
 
-SIMULATION OF BASIC TEST SIGNALS
+# SIMULATION OF BASIC TEST SIGNALS
 
 1. Unit Impulse Signal:
 • A signal that is zero everywhere except at one point, typically at t=0 where its value is 1.
@@ -36,3 +36,8 @@ duration and then jumps to a positive constant level (e.g., 0 and 1).
 • A signal that increases or decreases exponentially with time. The rate of growth or decay is 
 determined by the constant a.
 • Mathematically: e^(at)
+
+## OBSERVATIONS
+
+![Exp_1](https://github.com/user-attachments/assets/8572d02d-3f8d-4d47-a868-4ca20aed7789)
+
