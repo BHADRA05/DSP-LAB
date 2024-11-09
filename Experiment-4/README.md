@@ -1,6 +1,6 @@
 Experiment - 4
 
-CIRCULAR CONVOLUTION
+# CIRCULAR CONVOLUTION
 
 Circular convolution is a mathematical operation that is like linear convolution but is performed in a 
 periodic or circular manner. This is particularly useful in discrete-time signal processing where signals 
@@ -21,3 +21,29 @@ algorithms.
 
 Cyclic Convolution: In certain applications, such as cyclic prefix OFDM, circular convolution is used 
 to simplify the implementation of linear convolution.
+
+## OBSERVATIONS
+
+**Using FFT and IFFT:**
+Enter input x(n): [1 2 3 4]
+Enter index of x(n): 0:3
+Enter input h(n):[1 2 1 0]
+Enter index of h(n): 0:3
+Using FFT and IFFT:
+    12     8     8    12
+
+**Using concentric circle method:**
+Enter input x(n): [1 2 3 4]
+Enter input h(n): [1 2 1 0]
+Using Concentric Circle method: 
+    12     8     8    12
+
+**Using matrix method:**
+Enter input x(n): [1 2 3 4]
+Enter input h(n): [1 2 1 0]
+Using Matrix method:
+    12
+     8
+     8
+    12
+
