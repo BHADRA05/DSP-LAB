@@ -35,7 +35,7 @@ subplot(4,2,2);
 plot(w/pi,10*log10(abs(h1)));
 xlabel("Normalised frequency");
 ylabel("Magnitude in dB");
-title("High Pass filter using rectangular window");
+title("Band Pass filter using rectangular window");
 
 subplot(4,2,3);
 stem(whm);
@@ -47,7 +47,7 @@ subplot(4,2,4);
 plot(w/pi,10*log10(abs(h2)));
 xlabel("Normalised frequency");
 ylabel("Magnitude in dB");
-title("High Pass filter using hamming window");
+title("Band Pass filter using hamming window");
 
 subplot(4,2,5);
 stem(whn);
@@ -59,7 +59,7 @@ subplot(4,2,6);
 plot(w/pi,10*log10(abs(h3)));
 xlabel("Normalised frequency");
 ylabel("Magnitude in dB");
-title("High Pass filter using hanning window");
+title("Band Pass filter using hanning window");
 
 subplot(4,2,7);
 stem(wt);
@@ -71,4 +71,4 @@ subplot(4,2,8);
 plot(w/pi,10*log10(abs(h4)));
 xlabel("Normalised frequency");
 ylabel("Magnitude in dB");
-title("High Pass filter using triangular window");
+title("Band Pass filter using triangular window");

@@ -8,5 +8,5 @@ for i = 1:length(x)
     x = [x(end) x(1:end-1)];
     y(i) = sum(x.*h);
 end
-disp('Using Circular convolution: ');
+disp('Using Concentric Circle method: ');
 disp(y);

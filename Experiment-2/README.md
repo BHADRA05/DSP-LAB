@@ -1,6 +1,6 @@
 Experiment - 2
 
-VERIFICATION OF SAMPLING THEOREM
+# VERIFICATION OF SAMPLING THEOREM
 
 The Sampling Theorem, also known as the Nyquist-Shannon Sampling Theorem, states that a 
 continuous signal can be completely reconstructed from its samples if the sampling frequency is greater 
@@ -24,3 +24,8 @@ Applications:
 • Image processing
 
 • Medical imaging
+
+## OBSERVATIONS
+
+![Exp_2](https://github.com/user-attachments/assets/27aecd63-0a7d-463e-a2ef-be10f353b33b)
+
