@@ -1,6 +1,6 @@
 Experiment - 8
 
-OVERLAP SAVE AND OVERLAP ADD METHOD
+# OVERLAP SAVE AND OVERLAP ADD METHOD
 
 The Overlap-Save and Overlap-Add methods are efficient techniques in digital signal processing for performing convolution on long signals using the Fast Fourier Transform (FFT). These methods break the input signal into smaller segments and process them separately to handle large data more efficiently. These methods are widely used in practical DSP applications to reduce the computational complexity of filtering operations.
 
@@ -31,3 +31,25 @@ The Overlap-Add method is another technique to efficiently perform convolution b
 4.	Multiply the FFTs and apply Inverse FFT (IFFT) to get the time-domain result.
 
 5.	The overlapping parts from consecutive segments are added together to form the complete filtered output.
+
+## OBSERVATIONS
+** Overlap – Save Method:**
+Enter the input x(n): [3 -1 0 1 3 2 0 1 2 1]
+Enter the input h(n): [1 1 1]
+Fragmented block size: 3
+Using Overlap and Save method
+     3     2     2     0     4     6     5     3     3     4     3     1
+
+Verification
+    3.0000    2.0000    2.0000         0    4.0000    6.0000    5.0000    3.0000    3.0000    4.0000    3.0000    1.0000
+
+** Overlap – Add Method:**
+Enter the input x(n): [3 -1 0 1 3 2 0 1 2 1]
+Enter the input h(n): [1 1 1]
+Overlap-add convolution result:
+     3     2     2     0     4     6     5     3     3     4     3     1
+
+Built-in convolution result:
+     3     2     2     0     4     6     5     3     3     4     3     1
+
+![Exp_8](https://github.com/user-attachments/assets/4705b1a1-4138-47cc-949e-a3ce1bb7a32b)
