@@ -1,5 +1,5 @@
 clc;
-clear all;
+clear ;
 close all;
 
 wc1 = 0.5*pi;
